@@ -12,4 +12,11 @@ public class fBullet : MonoBehaviour
     {
         rb.velocity = transform.right * speed;
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Box")
+        {
+            Destroy(gameObject);
+        }
+    }
 }
