@@ -17,7 +17,7 @@ public class playerMove : MonoBehaviour
     void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed; //Assign direction of movement * speed
-	verticalMove = Input.GetAxisRaw("Jump") * jumpSpeed; //Assign direction of movement * speed
+	    verticalMove = Input.GetAxisRaw("Jump") * jumpSpeed; //Assign direction of movement * speed
     }
 
     void FixedUpdate()
