@@ -24,6 +24,6 @@ public class playerMove : MonoBehaviour
     {
         // Move our character
         controller.Move(horizontalMove * Time.fixedDeltaTime);
-	controller.Jump(verticalMove * Time.fixedDeltaTime);
+	    controller.Jump(verticalMove * Time.fixedDeltaTime);
     }
 }
