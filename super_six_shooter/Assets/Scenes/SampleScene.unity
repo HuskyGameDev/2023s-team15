@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 241634643}
   m_Layer: 6
   m_Name: BreakableBox
-  m_TagString: Untagged
+  m_TagString: Solid Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 526d04f9253cdfa4f953b5b6b75f0968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 100
+  hp: 10
 --- !u!61 &241634643
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -426,7 +426,7 @@ GameObject:
   - component: {fileID: 931484802}
   m_Layer: 6
   m_Name: TempWall
-  m_TagString: Untagged
+  m_TagString: Solid Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -590,7 +590,7 @@ GameObject:
   - component: {fileID: 1275052178}
   m_Layer: 6
   m_Name: TempFloor
-  m_TagString: Untagged
+  m_TagString: Solid Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

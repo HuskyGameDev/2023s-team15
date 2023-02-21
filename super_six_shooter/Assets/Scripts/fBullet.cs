@@ -11,11 +11,20 @@ public class fBullet : MonoBehaviour
     void Start()
     {
         rb.velocity = transform.right * speed;
+        StartCoroutine(Countdown());
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Box")
+        if(collision.gameObject.tag == "Solid Object")
         {
+            Destroy(gameObject);
+        }
+    }
+    private IEnumerator Countdown()
+    {
+        while(true)
+        {
+            yield return new WaitForSeconds(3);
             Destroy(gameObject);
         }
     }
