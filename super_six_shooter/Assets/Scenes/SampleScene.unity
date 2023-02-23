@@ -724,6 +724,7 @@ GameObject:
   - component: {fileID: 1643955725}
   - component: {fileID: 1643955726}
   - component: {fileID: 1643955727}
+  - component: {fileID: 1643955728}
   m_Layer: 0
   m_Name: TempPlayer
   m_TagString: Untagged
@@ -738,7 +739,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1643955720}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18d25befad9c09349813da874d8be9fa, type: 3}
   m_Name: 
@@ -753,7 +754,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1643955720}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 25fadd8042a179646a6d76ca3e5281a2, type: 3}
   m_Name: 
@@ -893,3 +894,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 1014918401}
   fbulletPrefab: {fileID: 1202878185340929823, guid: 22bdb4e637d95804db89cafa1743ff05, type: 3}
+--- !u!114 &1643955728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643955720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b670308751edaab47b3fb3646af9da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  jumpForce: 20
+  jumpableGround:
+    serializedVersion: 2
+    m_Bits: 64
